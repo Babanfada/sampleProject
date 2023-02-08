@@ -5,7 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import styles from "../styles/card.module.scss";
+// import styles from "../styles/card.module.scss";
 import { Link } from "react-router-dom";
 
 export default function MediaCard({ user }) {
@@ -15,7 +15,7 @@ export default function MediaCard({ user }) {
         sx={{ height: 140 }}
         image={user.profile.avatar}
         title="green iguana"
-        className={styles.img}
+        // className={styles.img}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
